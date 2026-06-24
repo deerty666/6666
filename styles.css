@@ -1,0 +1,48 @@
+/* لإظهار تصميم الصورة بجانب تفاصيل المنتج */
+.item-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.item-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    background-color: var(--light-color);
+}
+
+/* تنسيق شعار المحل */
+.logo-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* زر التحديد التلقائي للموقع */
+.geo-btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 1px solid var(--accent-color);
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s;
+}
+
+.geo-btn:hover {
+    background-color: var(--dark-color);
+}
+
+.geo-status {
+    font-size: 11px;
+    color: #4caf50;
+    margin-top: 5px;
+    font-weight: 600;
+}
