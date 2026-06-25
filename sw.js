@@ -1,5 +1,5 @@
 // 1. عند تعديل الموقع مستقبلاً، غيّر الرقم هنا فقط (مثلاً إلى 'hadih-beesh-v2') ليتحسس المتصفح التحديث
-const CACHE_NAME = 'hadih-beesh-v1'; 
+const CACHE_NAME = 'hadih-beesh-v5'; 
 
 const assets = [
   'index.html',
