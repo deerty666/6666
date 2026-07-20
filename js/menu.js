@@ -124,3 +124,14 @@ function renderMenu() {
     });
 
 }
+// ===============================
+// Start Menu
+// ===============================
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    renderSections();
+
+    renderMenu();
+
+});
