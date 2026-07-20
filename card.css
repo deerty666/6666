@@ -1,0 +1,195 @@
+/* ========================= */
+/* 🍽️ Product Card */
+/* ========================= */
+
+#menuList{
+
+    padding:15px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+}
+
+.food-card{
+
+    background:#1b1b1b;
+
+    border-radius:20px;
+
+    padding:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    border:1px solid rgba(255,255,255,.05);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+    transition:.25s;
+
+    position:relative;
+
+}
+
+.food-card:hover{
+
+    transform:translateY(-3px);
+
+    border-color:#c39e6a;
+
+}
+
+.food-image{
+
+    width:110px;
+
+    height:110px;
+
+    border-radius:18px;
+
+    object-fit:cover;
+
+    flex-shrink:0;
+
+}
+
+.food-info{
+
+    flex:1;
+
+}
+
+.food-name{
+
+    font-size:1.1rem;
+
+    font-weight:800;
+
+    margin-bottom:4px;
+
+}
+
+.food-en{
+
+    font-size:.82rem;
+
+    color:#9d9d9d;
+
+    margin-bottom:8px;
+
+}
+
+.food-desc{
+
+    color:#bbbbbb;
+
+    font-size:.85rem;
+
+    line-height:1.5;
+
+    margin-bottom:12px;
+
+}
+
+.food-bottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.price{
+
+    color:#E8C065;
+
+    font-size:1.25rem;
+
+    font-weight:900;
+
+}
+
+.add-btn{
+
+    width:46px;
+
+    height:46px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#E8C065;
+
+    color:#111;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.add-btn:hover{
+
+    transform:scale(1.08);
+
+}
+
+.favorite{
+
+    position:absolute;
+
+    top:12px;
+
+    left:12px;
+
+    width:34px;
+
+    height:34px;
+
+    border-radius:50%;
+
+    background:#262626;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+}
+
+.badge{
+
+    position:absolute;
+
+    top:12px;
+
+    right:12px;
+
+    background:#ff4d4d;
+
+    color:#fff;
+
+    padding:5px 10px;
+
+    border-radius:30px;
+
+    font-size:.75rem;
+
+    font-weight:700;
+
+}
