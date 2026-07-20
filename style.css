@@ -1,0 +1,93 @@
+:root{
+    --gold:#c39e6a;
+    --bg:#111111;
+    --card:#1b1b1b;
+    --text:#ffffff;
+    --sub:#b8b8b8;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Cairo",sans-serif;
+}
+
+body{
+    background:var(--bg);
+    color:var(--text);
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.welcome-page{
+    width:100%;
+    max-width:420px;
+    padding:25px;
+    text-align:center;
+}
+
+.logo{
+    width:140px;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:1.7rem;
+    margin-bottom:8px;
+    font-weight:800;
+}
+
+.subtitle{
+    color:var(--sub);
+    margin-bottom:35px;
+    line-height:1.7;
+}
+
+.branches{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.branch-card{
+
+    background:var(--card);
+
+    border:2px solid transparent;
+
+    color:#fff;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.branch-card:hover{
+
+    border-color:var(--gold);
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 25px rgba(195,158,106,.25);
+
+}
+
+.branch-card.active{
+
+    background:var(--gold);
+
+    color:#111;
+
+}
